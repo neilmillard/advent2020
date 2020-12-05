@@ -21,5 +21,5 @@ def find_pairs(number_list):
 
 
 def day_one():
-    my_numbers = get_numbers_from_file()
+    my_numbers = get_numbers_from_file('day1/day1.txt')
     find_pairs(my_numbers)

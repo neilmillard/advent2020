@@ -95,7 +95,7 @@ def count_valid(passports):
 
 
 def day_four():
-    passports = passports_from_file('day4.txt')
+    passports = passports_from_file('day4/day4.txt')
     # check that required fields are present
     count = count_valid(passports)
     total = len(passports)

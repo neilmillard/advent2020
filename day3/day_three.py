@@ -26,7 +26,7 @@ def test_count_trees():
     assert 2 == trees
 
 
-def get_trees_from_file(filepath='day3.txt'):
+def get_trees_from_file(filepath='day3/day3.txt'):
     trees = get_lines_from_file(filepath)
     return trees
 
@@ -59,5 +59,5 @@ def day_three():
     print(count_trees(trees, 5, 1))
     print(count_trees(trees, 7, 1))
     print(count_trees(trees, 1, 2))
-    #test_count_trees()
-    print(57*193*64*55*35)
+    # test_count_trees()
+    print(57 * 193 * 64 * 55 * 35)

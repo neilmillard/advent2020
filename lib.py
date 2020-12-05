@@ -1,5 +1,4 @@
-
-def get_lines_from_file(filepath='day1.txt',keep_blank=False):
+def get_lines_from_file(filepath='day1.txt', keep_blank=False):
     with open(filepath) as fp:
         line = fp.readline()
         cnt = 1

@@ -60,7 +60,7 @@ def validator_position(entry):
 
 
 def day_two():
-    passwords = get_passwords_from_file('day2.txt')
+    passwords = get_passwords_from_file('day2/day2.txt')
     # the passwords array is a dict,
     # Validator is a range 3-5 and a letter
     # 3-6 a
