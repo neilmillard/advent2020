@@ -3,6 +3,7 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 from day5.main import day_five
+from day6.main import day_six
 
 
 def print_hi(name):
@@ -16,6 +17,7 @@ if __name__ == '__main__':
     # day_two()
     # day_three()
     # day_four()
-    day_five()
+    # day_five()
+    day_six()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
